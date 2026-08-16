@@ -1,28 +1,34 @@
-# PersonalPortifolio
+# Hillary Nyakundi — Developer Relations Portfolio
 
-This personal portfolio project showcases my skills in HTML, CSS, &amp; JavaScript. It's a single-page website that features a link to my blog page
+A focused professional portfolio presenting Hillary Nyakundi's work across
+Developer Relations, developer education, technical documentation, open source,
+community leadership, and speaking.
 
-## Key Features
+## Project structure
 
-- **Four Themes** - The portfolio offers four customizable themes to match diverse preferences and needs.
-- **Live Page** - Explore the live version of the portfolio [HERE](https://larymak.netlify.app/).
+The site is deliberately dependency-light. It uses plain HTML, CSS, and
+JavaScript, with Manrope and DM Mono loaded from Google Fonts.
 
-![](images/home-page.png)
+## Run locally
 
-## Technologies Used
+Open `index.html` directly in a browser, or serve the directory with any static
+file server:
 
-- **HTML** - Structuring the content.
-- **CSS** - Styling and designing the site.
-- **JavaScript** - Adding interactivity to the site.
+```bash
+npx serve .
+```
 
-## How to Use
+## Content maintenance
 
-- Click the provided link above to explore the live portfolio.
-- Experiment with different themes by selecting your preferred option.
-- Navigate through the single-page layout and explore my work easily.
+- Update portfolio copy and external work links in `index.html`.
+- Update colors, spacing, components, and breakpoints in `default.css`.
+- Keep both image dimensions and descriptive `alt` text when replacing images.
+- Add a downloadable CV file and replace the current email-based “Request CV”
+  links when a public CV is ready.
+- Verify recognition claims and external URLs before publishing changes.
 
-## Future Improvements
+## Accessibility and performance
 
-- Enhance responsiveness for various screen sizes.
-- Add more projects to the portfolio.
-- Improve accessibility and overall user experience.
+The site includes semantic landmarks, a skip link, keyboard focus styles,
+accessible mobile navigation, reduced-motion support, and responsive layouts.
+No framework or client-side content API is required.
